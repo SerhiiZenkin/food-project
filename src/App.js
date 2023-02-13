@@ -22,7 +22,7 @@ const darkTheme = createTheme({
 
   return (
 <ThemeProvider theme={darkTheme}>
-    <BrowserRouter>
+    <BrowserRouter basename="/food-project">
       <React.Fragment>
         <Routes>
           <Route path="/" element={<MainLayout setMode={setMode} mode={mode}/>}>
